@@ -56,9 +56,9 @@
   text-align: center;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.py-15 {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
 
 .py-1 {
@@ -150,6 +150,24 @@
 
 .bg-secondary {
   background-color: var(--secondary);
+}
+
+.bg-unavailable {
+  background-image: none !important;
+  background-color: var(--secondary) !important;
+  height: 400px;
+}
+
+.bg-mens {
+  background-image: url('../img/ornamen.png');
+  background-color: var(--cyan);
+  height: 400px;
+}
+
+.bg-womens {
+  background-image: url('../img/ornamen.png');
+  background-color: var(--pink);
+  height: 400px;
 }
 
 .font-normal {

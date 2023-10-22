@@ -99,7 +99,7 @@ defineProps({
         {{ isLoading ? '' : `$${product.price}` }}
       </h2>
 
-      <div class="flex gap-4">
+      <div class="flex gap-4" v-if="!isLoading">
         <button
           class="w-1/2 rounded-4 py-1 text-light text-xl font-semibold"
           :class="{
